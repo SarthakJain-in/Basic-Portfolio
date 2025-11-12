@@ -47,3 +47,28 @@ document.querySelectorAll(".js-copy").forEach((anchor) => {
         });
     });
 });
+
+
+// Carousel
+
+const swiper = new Swiper(".mySwiper", {
+    loop: true,                  // Infinite loop
+    autoplay: {
+      delay: 2500,               // 2.5 seconds delay
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 1,            // Number of slides visible at once
+    spaceBetween: 20,            // Space between slides (px)
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 3 }
+    }
+  });
