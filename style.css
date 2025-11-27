@@ -483,10 +483,6 @@ input[type="submit"]:hover {
     margin-bottom: 20px;
 }
 
-.contact-details p {
-    text-align: center;
-}
-
 .email-num, .social-media {
     display: flex;
     align-items: center;
