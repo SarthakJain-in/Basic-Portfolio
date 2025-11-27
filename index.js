@@ -72,3 +72,17 @@ const swiper = new Swiper(".mySwiper", {
       1200: { slidesPerView: 3 }
     }
   });
+
+
+// navbar menu button
+
+function showSidebar() {
+    console.log("SHOW SIDEBAR CLICKED");
+    const sidebar = document.querySelector(".sidebar");
+    sidebar.style.display = "flex";
+}   
+
+function hideSidebar() {
+    const sidebar = document.querySelector(".sidebar");
+    sidebar.style.display = "none";
+}
