@@ -538,7 +538,10 @@ input[type="submit"]:hover {
 
 /* Extra small devices (portrait phones) */
 @media (max-width: 575.98px) {
-
+    .topbar .menu-btn {
+        display: block;
+    }
+    
     .about-grid {
         display: grid;
         grid-template-columns: 1fr;
