@@ -89,7 +89,7 @@ section {
 }
 
 .topbar .menu-btn {
-    display: none;
+    display: none !important;
 }
 
 .topbar li:first-child {
@@ -617,7 +617,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
     .topbar .menu-btn {
-        display: block;
+        display: block !important;
     }
 
     .topbar .hide {
@@ -796,11 +796,7 @@ input[type="submit"]:hover {
     .project-box {
         width: auto;
     }
-
-    .topbar .menu-btn {
-        display: block;
-    }
-    
+   
 }
 
 /* Medium devices (tablets) */
