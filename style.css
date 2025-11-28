@@ -541,7 +541,7 @@ input[type="submit"]:hover {
     .topbar .menu-btn {
         display: block;
     }
-    
+
     .about-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -578,7 +578,6 @@ input[type="submit"]:hover {
     .resume-btn > a {
         font-size: 14px;
     }
-
 
     .skill-box > img {
         width: 60%;
@@ -798,6 +797,9 @@ input[type="submit"]:hover {
         width: auto;
     }
 
+    .topbar .menu-btn {
+        display: block;
+    }
     
 }
 
